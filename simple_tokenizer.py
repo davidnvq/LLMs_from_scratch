@@ -1,4 +1,6 @@
 import re
+import os
+import urllib.request
 
 SPLIT_PATTERN = r'([,.:;?_!"()\']|--|\s)'
 
